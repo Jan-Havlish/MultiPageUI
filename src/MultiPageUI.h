@@ -1,10 +1,6 @@
 #ifndef MULTIPAGEUI_H
 #define MULTIPAGEUI_H
 
-#ifndef ARDUINO_SEEED_WIO_TERMINAL
-#error "This library only supports Wio Terminal. Please compile for Wio Terminal."
-#endif
-
 #include <TFT_eSPI.h>
 #include <Arduino.h>
 
